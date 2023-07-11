@@ -1,0 +1,31 @@
+.deleteBtn {
+  border-radius: 10px;
+  height: 30px;
+  border-color: rgb(114, 82, 218);
+  box-shadow: 0 0 10px #f6f6f5, 0 0 10px #f03e12, 0 0 20px #ffffec;
+
+  color: rgb(44, 44, 194);
+  background-color: #f18387;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.deleteBtn:hover,
+.deleteBtn:focus {
+  background: rgba(0, 0, 0, 0);
+  color: #f9252c;
+  box-shadow: inset 0 0 0 3px #fff706;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 10px;
+}
+
+.contactTxt {
+  color: #f6f6f5;
+  font-weight: 500;
+}

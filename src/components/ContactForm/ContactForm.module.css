@@ -1,0 +1,67 @@
+.nameTxt {
+  font-size: 23px;
+  font-weight: 700;
+  color: rgb(44, 44, 181);
+  text-shadow: 0px 4px 3px rgba(248, 241, 241, 0.4),
+    0px 8px 13px rgba(245, 242, 242, 0.1),
+    0px 18px 23px rgba(255, 255, 255, 0.1);
+}
+
+.addContactBtn {
+  border-radius: 10px;
+  height: 30px;
+  border-color: rgb(82, 82, 218);
+  box-shadow: 0 0 10px #f6f6f5, 0 0 20px #f5f551, 0 0 30px #ffffec;
+
+  color: rgb(44, 44, 194);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+.addContactBtn:hover,
+.addContactBtn:focus {
+  background: rgba(0, 0, 0, 0);
+  color: #f9f925;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.contactForm {
+  padding-top: 120px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formName {
+  border-radius: 10px;
+  height: 30px;
+  width: 300px;
+  padding-left: 7px;
+  cursor: pointer;
+  box-shadow: rgb(248, 250, 251) 0px 0px 15px 0px;
+  transition: all 500ms ease;
+  color: #000000;
+  font-size: 20px;
+}
+
+.formTel {
+  border-radius: 10px;
+  height: 30px;
+  width: 300px;
+  padding-left: 7px;
+  cursor: pointer;
+  box-shadow: rgb(248, 250, 251) 0px 0px 15px 0px;
+  transition: all 500ms ease;
+  color: #000000;
+  font-size: 20px;
+}
+
+.formName:hover,
+.formName:focus,
+.formTel:hover,
+.formTel:focus {
+  border-color: #f5f551;
+  box-shadow: rgb(251, 251, 248) 0px 5px 20px 5px;
+}
